@@ -1,0 +1,20 @@
+.button{
+    background-color: #adadad;
+    border: 2px solid;
+    border-radius: 10%;
+    width: 10em;
+    height: 1.9em;
+    text-align: center; 
+    box-shadow: 0 10px 20px green, 0 6px 6px green;
+    transition-duration: 850ms;
+    transition-delay: 20ms;
+    transition-property: background-color border box-shadow width height font-size;
+    &:hover{
+        box-shadow: 10px 20px 30px purple, 15px 20px 20px green;
+        background-color: red;
+        border: 5px solid;
+        height: 2.25em;
+        width: 15em;
+        font-size: 25px;
+    }
+}

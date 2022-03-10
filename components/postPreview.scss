@@ -1,0 +1,19 @@
+.post{
+    border: 5px solid;
+    margin-top: 2em;
+    border-radius: 10%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition-delay: 100ms;
+    transition-duration: 650ms;
+    transition-property: border border-color boxshadow;
+    &:hover{
+        
+        border: 10px solid;
+        border-color: red;
+        box-shadow: 5px 20px 40px black, 3px 12px 12px black;
+    }
+    hr{
+        background-color: black;
+        color: black;
+    }
+}
